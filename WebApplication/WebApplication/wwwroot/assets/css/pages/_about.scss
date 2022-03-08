@@ -1,0 +1,91 @@
+body{
+    overflow-x: hidden !important;
+    #first-content{
+        .content{
+            margin-top: 20px;
+            .img-wrapper{
+                position: relative;
+                .img{
+                    img{
+                        height: 622.4px;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .img-content{
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    padding-top: 250px;
+                    color: white;
+                    text-align: center;
+                    background-color: rgba(0, 0, 0, 0.418);
+                    width: 100%;
+                    height: 100%;
+                    h1{
+                        font-size: 3.75rem;
+                        font-weight: 600;
+                    }
+                    h4{
+                        letter-spacing: 4px;
+                        font-size: .75rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .text{
+                margin-top: 50px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+#second-content{
+    .content{
+        margin-top: 40px;
+        margin-left: 50px;
+        h2{
+            font-weight: 600;
+        }
+        p{
+            margin-top: 40px;
+            font-size: 14px;
+            font-weight: 400;       
+        }
+    }
+}
+#third-content{
+    margin-top: 50px;
+    .img-wrapper{
+        position: relative;
+        .img-content{
+            background-color: white;
+            position: absolute;
+            top: 800px;
+            left: 100px;
+            width: 1000px;
+            padding-top: 60px;
+            padding-left: 90px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 400;      
+        }
+    }
+    .content{
+        padding-left: 80px;
+        padding-top: 190px;
+        h3{
+            font-weight: 600;
+        }
+        .text{
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    .bottom-text{
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 100px;
+    }
+}

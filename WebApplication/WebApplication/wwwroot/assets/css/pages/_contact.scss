@@ -1,0 +1,96 @@
+#contact-page{
+    margin-top: 50px;
+    .contact-head{
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        h1{
+            font-weight: 400;
+            letter-spacing: 0;       
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    .contact-info{
+        text-align: center;
+        margin-top: 50px;
+        .content{
+            background-color: #f3f3f6;
+            border-radius: 8px;
+            height: 202px;
+            padding-top: 40px;
+            font-family: "Inter", sans-serif;
+            i{
+                font-size: 2.25rem;
+                color: #233a95       
+            }
+            .first{
+                padding-top: 20px;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            p{
+                font-size: .8125rem;
+            }
+        }
+    }
+}
+
+#send-us{
+    .content{
+        margin-top: 70px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        padding-left: 182px;
+        padding-right: 182px;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        .header{
+            text-align: center;
+            h1{
+                font-size: 2.5rem;
+                font-family: "Inter", sans-serif;
+                font-weight: 400;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+            }
+            margin-bottom: 50px;
+        }
+        form{
+            margin-top: 50px;
+            input{
+                width: 100%;
+                border: none;
+                border-radius: 5px;
+                height: 46px;
+                background-color: #f3f4f7;
+                outline: none;
+                padding-left: 20px;
+            }
+            textarea{
+                width: 100%;
+                border: none;
+                border-radius: 5px;
+                height: 120px;
+                background-color: #f3f4f7;
+                outline: none;
+                padding-left: 20px;
+                padding-top: 15px;
+                resize: none;
+            }
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 165.65px;
+                height: 46px;
+                border: none;
+                border-radius: 5px;
+                background-color: #233a95;
+                color: white;
+            }
+        }
+    }
+}

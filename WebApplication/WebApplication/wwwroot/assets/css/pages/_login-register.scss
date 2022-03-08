@@ -1,0 +1,45 @@
+#login-register{
+    margin-top: 50px;
+    h2{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    label{
+        font-size: 14px;
+    }
+    span{
+        font-size: 12px;
+    }
+    .login-pass{
+        display: inline-block;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        height: 40px;
+        width: 100%;
+        background-color: #f3f4f7;
+        border: none;
+        &:focus{
+            outline: none;
+        }
+        
+    }
+    button{
+        border: none;
+        border-radius: 5px;
+        background-color: #233a95;
+        color: white;
+        height: 2.5rem;
+        font-size: .875rem;
+        font-weight: 500;
+        width: 82.54px;
+    }
+    a{
+        color: #2bbef9;
+    }
+    p{
+        font-size: 14px;
+        a{
+            color: #ed174a;
+        }
+    }
+}
